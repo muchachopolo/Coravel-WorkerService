@@ -9,6 +9,7 @@
     <Title>Coravel DI WorkerService</Title>
     <Company>$(Authors)</Company>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/muchachopolo/Coravel-WorkerService</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
