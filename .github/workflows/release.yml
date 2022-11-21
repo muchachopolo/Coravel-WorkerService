@@ -26,7 +26,9 @@ jobs:
     - name: Setup .NET SDK
       uses: actions/setup-dotnet@v1
     - name: Build
-      run: dotnet build -c Release -p:Version=$RELEASE_VERSION
+      run: |
+        echo $RELEASE_VERSION
+        dotnet build -c Release -p:Version=$RELEASE_VERSION
     - name: Test
       run: dotnet test -c Release --no-build
     - name: Pack nugets
